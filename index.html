@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>neo login</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <section id="form-wrapper">
+            <div id="form-header">
+                <h2>Login Account</h2>
+                <div id="api-bar">
+                        <h3>Log in with</h3>
+                        <div class="google icon-container">
+                                <a href="#"><i class="fab fa-google"></i></a>
+                        </div>
+                        <div class="facebook ficon-container">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                </div>
+               
+            </div>
+            
+            <section id="divide">
+                    <h3 class="divider">OR LOGIN WITH</h3>
+            </section>
+
+            <form action="login.php" method="post">
+                <fieldset>
+                    <input type="email" name="email" id="email" placeholder="Email ID" required>
+                    <img src="./email-64.png" alt="">
+                </fieldset>
+
+                <fieldset>
+                    <input type="password" name="password" id="password" placeholder="Password" required>
+                    <img src="./key-64.png" alt="">
+                </fieldset>
+
+                <span class="check">
+                    <input type="checkbox" name="checkbox" id="checkbox">
+                    <label for="checkbox">Keep me logged in</label>
+                    <a href="#">Forgot Password?</a>
+                </span>
+                <button type="submit" name="submit">Log in</button>
+            </form>
+            
+        </section>
+
+        <section id="form-wrapper" class="sign-up">
+            <div id="form-header">
+                <h2>Register Account</h2>
+                <div id="api-bar">
+                        <h3>Sign up with</h3>
+                        <div class="google icon-container">
+                                <a href="#"><i class="fab fa-google"></i></a>
+                        </div>
+                        <div class="facebook ficon-container">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        </div>
+                </div>
+               
+            </div>
+            <section id="divide">
+                    <h3 class="divider">Register below</h3>
+            </section>
+            <form action="signup.php" method="post">
+                    <fieldset>
+                            <input type="text" name="name" id="name" placeholder="Full name" required>
+                            <img src="./contacts-64.png" alt="">
+                        </fieldset>
+                <fieldset>
+                    <input type="email" name="email" id="reg-email" placeholder="Email" required>
+                    <img src="./email-64.png" alt="">
+                </fieldset>
+                <fieldset>
+                    <input type="password" name="password" id="reg-password" placeholder="Password" required>
+                    <img src="./key-64.png" alt="">
+                </fieldset>
+                <button type="submit" name="submit">Sign up</button>
+            </form>
+            <h3>Already have an account? 
+                <span><a id="sign-in-btn" href="#">Sign in</a></span>
+            </h3>
+        </section>
+
+        <section id="banner">
+            <h3 class="mobile-header">
+                WELCOME TO TEAM NEO
+            </h3>
+            <h3 class="mobile-footer">Don't have an account? 
+                    <span><a id="sign-up-btn" href="#">Sign up</a></span>
+                </h3>
+            <h1>WELCOME TO TEAM NEO</h1>
+            <img src="./undraw_Hello_qnas.svg" alt="bg" srcset="">
+            <h3>Don't have an account? 
+                    <span><a id="sign-up-btn" href="#">Sign up</a></span>
+                </h3>
+        </section>
+
+    
+        <div class="round"></div>
+        <div class="round-top"></div>
+        <script src="app.js"></script>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    </body>
+</html>
